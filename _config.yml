@@ -1,0 +1,18 @@
+name: DoIIIT
+author: gparuthi
+description: DoIIIT
+url: http://doiiit.github.io
+highlighter: pygments
+permalink: /:title
+ordered_categories: [research1, research2]
+people_cats: [people1, people2]
+all_tags: [HCI, UbiComp, ICTD, DataMining, Health]
+sass:
+  sass_dir: css
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
